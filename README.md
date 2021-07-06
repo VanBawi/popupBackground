@@ -8,19 +8,21 @@ Get perfect background color with popup image
 
 Then ...
 
-```
-import {PopUpImageText} from 'PopUpImageText'
+```js
+import { PopUpImageText } from 'PopUpImageText';
 
-  {popUpModal && (
-        <PopUpImageText
-          onClick={toggle}
-          img={noReceiptPopup}
-          imgLeft="-5%"
-          linkPosition="265px"
-          redirectUrl="https://shopee.com.my/"
-          forShopee={true}
-        />
-      )}
+{
+	popUpModal && (
+		<PopUpImageText
+			onClick={toggle}
+			img={noReceiptPopup}
+			imgLeft='-5%'
+			linkPosition='265px'
+			redirectUrl='https://shopee.com.my/'
+			forShopee={true}
+		/>
+	);
+}
 ```
 
 ## Options
